@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "AUMS Course Booster",
+  "version": "1.0",
+  "description": "Access files and customize themes for Amrita Academic Suite.",
+  "permissions": ["scripting", "storage", "activeTab"],
+  "host_permissions": ["https://aumscb.amrita.edu/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+  {
+    "matches": ["https://aumscb.amrita.edu/*"],
+    "js": ["content.js"],
+    "css": ["themes.css"]
+  }
+]
+
+}

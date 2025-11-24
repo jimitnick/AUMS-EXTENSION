@@ -1,0 +1,48 @@
+body.dark { background: #181818 !important; color: #e1e1e1 !important; }
+body.light { background: #fff !important; color: #222 !important; }
+/* Add more theme rules as desired */
+body.dark {
+  background: #121212 !important;
+  color: #e0e0e0 !important;
+}
+a, button, input {
+  color: #bb86fc !important;
+  background: #1f1b24 !important;
+  border-color: #3a3a3a !important;
+}
+body.dark {
+  background: #121212 !important;
+  color: #e0e0e0 !important;
+}
+a, button, input {
+  color: #bb86fc !important;
+  background: #1f1b24 !important;
+  border-color: #3a3a3a !important;
+}
+body.solarized-dark {
+  background: #002b36 !important;
+  color: #839496 !important;
+}
+a, button, input {
+  color: #b58900 !important;
+  background: #073642 !important;
+  border-color: #586e75 !important;
+}
+body.dracula {
+  background: #282a36 !important;
+  color: #f8f8f2 !important;
+}
+a, button, input {
+  color: #bd93f9 !important;
+  background: #44475a !important;
+  border-color: #6272a4 !important;
+}
+body.high-contrast {
+  background: #000 !important;
+  color: #fff !important;
+}
+a, button, input {
+  color: #ff0 !important;
+  background: #000 !important;
+  border-color: #fff !important;
+}
