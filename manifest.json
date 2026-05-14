@@ -6,8 +6,7 @@
   "permissions": ["scripting", "storage", "activeTab"],
   "host_permissions": ["https://aumscb.amrita.edu/*"],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icon.png"
+    "default_popup": "popup.html"
   },
   "content_scripts": [
   {
